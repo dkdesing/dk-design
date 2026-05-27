@@ -9,17 +9,19 @@
     "shortEn": "Drawings for basic project implementation.",
     "services": [
       "Обмірний план",
+      "Розробка планування 3 варіанти",
       "План демонтажу",
       "План монтажу перегородок",
       "План розміщення меблів",
-      "План сантехніки"
+      "План базової електрики"
     ],
     "servicesEn": [
       "Measurement plan",
+      "Planning development 3 options",
       "Demolition plan",
       "Partition installation plan",
       "Furniture layout plan",
-      "Plumbing plan"
+      "Basic electrical plan"
     ]
   },
   {
@@ -32,11 +34,12 @@
     "shortEn": "Optimal package for design project implementation.",
     "services": [
       "Все з технічного пакету",
-      "План електрики",
+      "План розширеної електрики",
       "План освітлення",
       "План підлогового покриття",
-      "План стель",
-      "Розгортки основних стін"
+      "3D візуалізація"
+     
+
     ],
     "servicesEn": [
       "Everything from Technical package",
@@ -44,7 +47,7 @@
       "Lighting plan",
       "Flooring plan",
       "Ceiling plan",
-      "Main wall elevations"
+      "3D visualizations"
     ]
   },
   {
@@ -58,16 +61,16 @@
     "services": [
       "Все з базового пакету",
       "Повний комплект розгорток",
-      "Відомість матеріалів",
-      "Підбір меблів та декору",
+      "Відомість та підбір матеріалів",
+      "Підбір декору",
       "3D-візуалізації",
-      "Консультації по реалізації"
+      "Консультації та авторський нагляд по реалізації"
     ],
     "servicesEn": [
       "Everything from Base package",
       "Full wall elevations set",
       "Materials specification",
-      "Furniture and decor selection",
+      "Knowledge and selection of materials",
       "3D visualizations",
       "Implementation consultations"
     ]
