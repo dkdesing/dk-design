@@ -62,9 +62,18 @@
     "descriptionEn": "Interior design project.",
     "cover": "/projects/manhattan-3/1.svg",
     "images": [
-      "/projects/manhattan-3/1.svg",
-      "/projects/manhattan-3/2.svg",
-      "/projects/manhattan-3/3.svg"
+      "images": [
+  "/projects/manhattan-3/1.jpg",
+  "/projects/manhattan-3/2.jpg",
+  "/projects/manhattan-3/3.jpg",
+  "/projects/manhattan-3/4.jpg",
+  "/projects/manhattan-3/5.jpg"
+  "/projects/manhattan-3/6.jpg",
+  "/projects/manhattan-3/7.jpg",
+  "/projects/manhattan-3/8.jpg",
+  "/projects/manhattan-3/9.jpg",
+  "/projects/manhattan-3/10.jpg"
+
     ]
   },
   {
