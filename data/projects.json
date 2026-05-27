@@ -1,0 +1,150 @@
+[
+  {
+    "slug": "sky-centre",
+    "type": "visualizations",
+    "title": "SKY centre",
+    "titleEn": "SKY centre",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Комплексна візуалізація квартири: кухня-вітальня, спальня, ТВ-зона та санвузол.",
+    "descriptionEn": "Complete apartment visualization: kitchen-living room, bedroom, TV area and bathroom.",
+    "cover": "/projects/sky-centre/1.jpg",
+    "images": [
+      "/projects/sky-centre/1.jpg",
+      "/projects/sky-centre/2.jpg",
+      "/projects/sky-centre/3.jpg",
+      "/projects/sky-centre/4.jpg",
+      "/projects/sky-centre/5.jpg",
+      "/projects/sky-centre/6.jpg",
+      "/projects/sky-centre/7.jpg"
+    ]
+  },
+  {
+    "slug": "manhattan",
+    "type": "visualizations",
+    "title": "Manhattan",
+    "titleEn": "Manhattan",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/manhattan/1.svg",
+    "images": [
+      "/projects/manhattan/1.svg",
+      "/projects/manhattan/2.svg",
+      "/projects/manhattan/3.svg"
+    ]
+  },
+  {
+    "slug": "manhattan-2",
+    "type": "visualizations",
+    "title": "Manhattan 2",
+    "titleEn": "Manhattan 2",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/manhattan-2/1.svg",
+    "images": [
+      "/projects/manhattan-2/1.svg",
+      "/projects/manhattan-2/2.svg",
+      "/projects/manhattan-2/3.svg"
+    ]
+  },
+  {
+    "slug": "manhattan-3",
+    "type": "visualizations",
+    "title": "Manhattan 3",
+    "titleEn": "Manhattan 3",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/manhattan-3/1.svg",
+    "images": [
+      "/projects/manhattan-3/1.svg",
+      "/projects/manhattan-3/2.svg",
+      "/projects/manhattan-3/3.svg"
+    ]
+  },
+  {
+    "slug": "parkova-aleya",
+    "type": "visualizations",
+    "title": "Паркова алея",
+    "titleEn": "Parkova Aleya",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/parkova-aleya/1.svg",
+    "images": [
+      "/projects/parkova-aleya/1.svg",
+      "/projects/parkova-aleya/2.svg",
+      "/projects/parkova-aleya/3.svg"
+    ]
+  },
+  {
+    "slug": "parkove-mistechko",
+    "type": "visualizations",
+    "title": "Паркове містечко",
+    "titleEn": "Parkove Mistechko",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/parkove-mistechko/1.svg",
+    "images": [
+      "/projects/parkove-mistechko/1.svg",
+      "/projects/parkove-mistechko/2.svg",
+      "/projects/parkove-mistechko/3.svg"
+    ]
+  },
+  {
+    "slug": "kluziv",
+    "type": "visualizations",
+    "title": "Клузів",
+    "titleEn": "Kluziv",
+    "category": "Візуалізації",
+    "categoryEn": "Visualizations",
+    "description": "Проєкт інтерʼєру житлового простору.",
+    "descriptionEn": "Interior design project.",
+    "cover": "/projects/kluziv/1.svg",
+    "images": [
+      "/projects/kluziv/1.svg",
+      "/projects/kluziv/2.svg",
+      "/projects/kluziv/3.svg"
+    ]
+  },
+  {
+    "slug": "drawings-base",
+    "type": "drawings",
+    "title": "Креслення пакет BASE",
+    "titleEn": "Drawings package BASE",
+    "category": "Креслення",
+    "categoryEn": "Drawings",
+    "description": "Приклад базового пакету креслень.",
+    "descriptionEn": "Drawing package example.",
+    "cover": "/projects/drawings-base/1.svg",
+    "images": [
+      "/projects/drawings-base/1.svg",
+      "/projects/drawings-base/2.svg",
+      "/projects/drawings-base/3.svg"
+    ]
+  },
+  {
+    "slug": "drawings-max",
+    "type": "drawings",
+    "title": "Креслення пакет MAX",
+    "titleEn": "Drawings package MAX",
+    "category": "Креслення",
+    "categoryEn": "Drawings",
+    "description": "Приклад максимального пакету креслень.",
+    "descriptionEn": "Drawing package example.",
+    "cover": "/projects/drawings-max/1.svg",
+    "images": [
+      "/projects/drawings-max/1.svg",
+      "/projects/drawings-max/2.svg",
+      "/projects/drawings-max/3.svg"
+    ]
+  }
+]

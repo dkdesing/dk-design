@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "technical",
+    "title": "Технічний пакет",
+    "titleEn": "Technical package",
+    "price": "10$/м²",
+    "priceEn": "$10/m²",
+    "short": "Креслення для базової реалізації проєкту.",
+    "shortEn": "Drawings for basic project implementation.",
+    "services": [
+      "Обмірний план",
+      "План демонтажу",
+      "План монтажу перегородок",
+      "План розміщення меблів",
+      "План сантехніки"
+    ],
+    "servicesEn": [
+      "Measurement plan",
+      "Demolition plan",
+      "Partition installation plan",
+      "Furniture layout plan",
+      "Plumbing plan"
+    ]
+  },
+  {
+    "slug": "base",
+    "title": "Базовий пакет",
+    "titleEn": "Base package",
+    "price": "20$/м²",
+    "priceEn": "$20/m²",
+    "short": "Оптимальний пакет для реалізації дизайн-проєкту.",
+    "shortEn": "Optimal package for design project implementation.",
+    "services": [
+      "Все з технічного пакету",
+      "План електрики",
+      "План освітлення",
+      "План підлогового покриття",
+      "План стель",
+      "Розгортки основних стін"
+    ],
+    "servicesEn": [
+      "Everything from Technical package",
+      "Electrical plan",
+      "Lighting plan",
+      "Flooring plan",
+      "Ceiling plan",
+      "Main wall elevations"
+    ]
+  },
+  {
+    "slug": "max",
+    "title": "MAX пакет",
+    "titleEn": "MAX package",
+    "price": "25$/м²",
+    "priceEn": "$25/m²",
+    "short": "Максимальний пакет для детального дизайн-проєкту.",
+    "shortEn": "Maximum package for a detailed design project.",
+    "services": [
+      "Все з базового пакету",
+      "Повний комплект розгорток",
+      "Відомість матеріалів",
+      "Підбір меблів та декору",
+      "3D-візуалізації",
+      "Консультації по реалізації"
+    ],
+    "servicesEn": [
+      "Everything from Base package",
+      "Full wall elevations set",
+      "Materials specification",
+      "Furniture and decor selection",
+      "3D visualizations",
+      "Implementation consultations"
+    ]
+  }
+]

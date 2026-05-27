@@ -1,0 +1,1 @@
+export default function T({ua,en}){return <><span className="langUa">{ua}</span><span className="langEn">{en||ua}</span></>}

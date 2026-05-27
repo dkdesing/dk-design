@@ -1,0 +1,4 @@
+'use client'
+import {useEffect,useState} from 'react'
+const SECRET_CODE='dkadmin'
+export default function AdminUnlock(){const[typed,setTyped]=useState('');const[visible,setVisible]=useState(false);useEffect(()=>{if(localStorage.getItem('dk_admin_visible')==='yes')setVisible(true);function h(e){const k=e.key.toLowerCase();if(k==='escape'){localStorage.removeItem('dk_admin_visible');setVisible(false);setTyped('');return}if(k.length!==1)return;const n=(typed+k).slice(-SECRET_CODE.length);setTyped(n);if(n===SECRET_CODE){localStorage.setItem('dk_admin_visible','yes');setVisible(true)}}window.addEventListener('keydown',h);return()=>window.removeEventListener('keydown',h)},[typed]);if(!visible)return null;return <a href="/admin" style={{position:'fixed',right:18,bottom:18,zIndex:9999,background:'#151515',color:'#fff',padding:'14px 18px',borderRadius:999,boxShadow:'0 14px 34px rgba(0,0,0,.22)',fontSize:14}}>Адмін</a>}

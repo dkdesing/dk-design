@@ -1,0 +1,8 @@
+import packages from '../../../data/packages.json'
+import site from '../../../data/site.json'
+import {notFound} from 'next/navigation'
+import {ArrowLeft,Phone,Mail,Check} from 'lucide-react'
+import LangThemeControls from '../../LangThemeControls'
+import T from '../../Text'
+export function generateStaticParams(){return packages.map(pack=>({slug:pack.slug}))}
+export default function PackagePage({params}){const pack=packages.find(p=>p.slug===params.slug);if(!pack)return notFound();return <><header className="header"><nav className="nav"><a href="/" className="logo">{site.brand}</a><div className="actions"><LangThemeControls/><a className="btn" href="/#packages"><ArrowLeft size={16}/> <T ua="Назад" en="Back"/></a></div></nav></header><main><section className="section"><p className="label">Service package</p><h1><T ua={pack.title} en={pack.titleEn}/></h1><p className="lead"><T ua={pack.short} en={pack.shortEn}/></p><div className="price"><T ua={pack.price} en={pack.priceEn}/></div><div className="serviceList">{pack.services.map((service,index)=><div className="serviceItem" key={service}><Check size={18}/> <T ua={service} en={pack.servicesEn[index]}/></div>)}</div></section><section className="section"><div className="contactBox"><div><p className="label">Contacts</p><h2 className="sectionTitle"><T ua="Хочете цей пакет?" en="Interested in this package?"/></h2><p className="text"><T ua="Напишіть або зателефонуйте, щоб обговорити площу, склад робіт і терміни." en="Email or call us to discuss area, scope and timeline."/></p></div><div className="contactLinks"><a href={`tel:${site.phone}`}><Phone size={17}/> {site.phone}</a><a href={`mailto:${site.email}`}><Mail size={17}/> {site.email}</a></div></div></section></main></>}
