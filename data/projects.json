@@ -124,11 +124,18 @@
     "categoryEn": "Visualizations",
     "description": "Проєкт інтерʼєру житлового простору.",
     "descriptionEn": "Interior design project.",
-    "cover": "/projects/parkove-mistechko/1.svg",
+    "cover": "/projects/parkove-mistechko/4.jpg",
     "images": [
-      "/projects/parkove-mistechko/1.svg",
-      "/projects/parkove-mistechko/2.svg",
-      "/projects/parkove-mistechko/3.svg"
+      "/projects/parkove-mistechko/1.jpg",
+      "/projects/parkove-mistechko/2.jpg",
+      "/projects/parkove-mistechko/3.jpg",
+      "/projects/parkove-mistechko/4.jpg",
+      "/projects/parkove-mistechko/5.jpg",
+      "/projects/parkove-mistechko/6.jpg",
+      "/projects/parkove-mistechko/7.jpg",
+      "/projects/parkove-mistechko/8.jpg", 
+      "/projects/parkove-mistechko/9.jpg",
+      "/projects/parkove-mistechko/10.jpg"   
     ]
   },
   {
