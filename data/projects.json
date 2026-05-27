@@ -102,11 +102,17 @@
     "categoryEn": "Visualizations",
     "description": "Проєкт інтерʼєру житлового простору.",
     "descriptionEn": "Interior design project.",
-    "cover": "/projects/parkova-aleya/1.svg",
+    "cover": "/projects/parkova-aleya/8.jpg",
     "images": [
-      "/projects/parkova-aleya/1.svg",
-      "/projects/parkova-aleya/2.svg",
-      "/projects/parkova-aleya/3.svg"
+      "/projects/parkova-aleya/1.jpg",
+      "/projects/parkova-aleya/2.jpg",
+      "/projects/parkova-aleya/3.jpg",
+      "/projects/parkova-aleya/4.jpg",
+      "/projects/parkova-aleya/5.jpg",
+      "/projects/parkova-aleya/6.jpg",
+      "/projects/parkova-aleya/7.jpg",
+      "/projects/parkova-aleya/8.jpg",
+      "/projects/parkova-aleya/9.jpg"
     ]
   },
   {
