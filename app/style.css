@@ -131,3 +131,102 @@ transition:.25s;
 .messengers img:hover{
 transform:scale(1.12);
 }
+.leadBtn{
+padding:16px 24px;
+border-radius:999px;
+border:none;
+background:var(--gold);
+color:#14110e;
+font-weight:800;
+cursor:pointer;
+font-size:16px;
+}
+
+.floatingLeadBtn{
+position:fixed;
+right:24px;
+bottom:24px;
+z-index:999;
+padding:16px 22px;
+border-radius:999px;
+border:none;
+background:var(--gold);
+color:#14110e;
+font-weight:800;
+box-shadow:0 14px 40px rgba(0,0,0,.3);
+cursor:pointer;
+}
+
+.leadOverlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.65);
+z-index:1000;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+}
+
+.leadModal{
+position:relative;
+background:var(--card);
+color:var(--text);
+border-radius:32px;
+padding:34px;
+max-width:560px;
+width:100%;
+box-shadow:0 30px 100px rgba(0,0,0,.4);
+}
+
+.leadClose{
+position:absolute;
+right:18px;
+top:14px;
+border:none;
+background:transparent;
+font-size:32px;
+color:var(--text);
+cursor:pointer;
+}
+
+.leadForm{
+display:grid;
+gap:12px;
+margin-top:22px;
+}
+
+.leadForm input,
+.leadForm select,
+.leadForm textarea{
+width:100%;
+padding:15px 17px;
+border-radius:16px;
+border:1px solid var(--border);
+background:var(--bg);
+color:var(--text);
+font-size:15px;
+outline:none;
+}
+
+.leadForm textarea{
+min-height:110px;
+resize:vertical;
+}
+
+.leadForm button{
+padding:16px 22px;
+border-radius:999px;
+border:none;
+background:var(--gold);
+color:#14110e;
+font-weight:800;
+cursor:pointer;
+}
+
+.leadSuccess{
+margin-top:22px;
+padding:18px;
+border-radius:18px;
+background:var(--soft);
+}

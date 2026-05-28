@@ -1,3 +1,4 @@
+import LeadForm from './LeadForm'
 import site from '../data/site.json'
 import packages from '../data/packages.json'
 import {Phone,Mail,FolderOpen,Layers} from 'lucide-react'
@@ -27,6 +28,7 @@ export default function Home(){return <><header className="header"><nav classNam
   <a href={`mailto:${site.email}`}>
     <Mail size={17}/> {site.email}
   </a>
+<LeadForm />
 </div>
 </div>
 </section></main><AdminUnlock/></>}
