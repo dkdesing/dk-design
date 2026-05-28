@@ -29,4 +29,4 @@ export default function Home(){return <><header className="header"><nav classNam
   >
     VB
   </a>
-</div></main></div> <AdminUnlock/></>}
+</div></main><AdminUnlock/></>}
