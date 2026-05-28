@@ -86,3 +86,8 @@ border-radius:28px;
     font-size:12px;
   }
 }
+.floatBtn img{
+  width:28px;
+  height:28px;
+  filter:brightness(0) invert(1);
+}

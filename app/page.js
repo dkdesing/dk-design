@@ -12,7 +12,7 @@ export default function Home(){return <><header className="header"><nav classNam
     target="_blank"
     className="floatBtn telegram"
   >
-    TG
+  <img src="/telegram.svg" alt="Telegram" />
   </a>
 
   <a
@@ -20,13 +20,13 @@ export default function Home(){return <><header className="header"><nav classNam
     target="_blank"
     className="floatBtn whatsapp"
   >
-    WA
+  <img src="/whatsapp.svg" alt="WhatsApp" />
   </a>
 
   <a
     href="viber://chat?number=%2B380995081424"
     className="floatBtn viber"
   >
-    VB
+  <img src="/viber.svg" alt="Viber" />
   </a>
 </div></main><AdminUnlock/></>}
