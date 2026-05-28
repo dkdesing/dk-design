@@ -16,5 +16,4 @@ export const metadata = {
     "DK Design"
   ],
 }
-}
 export default function RootLayout({children}){return <html lang="uk"><body>{children}<Analytics /></body></html>}
