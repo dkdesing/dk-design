@@ -91,3 +91,24 @@ border-radius:28px;
   height:28px;
   filter:brightness(0) invert(1);
 }
+.phoneBlock{
+display:flex;
+flex-direction:column;
+gap:14px;
+}
+
+.messengers{
+display:flex;
+gap:12px;
+align-items:center;
+}
+
+.messengers img{
+width:34px;
+height:34px;
+transition:.25s;
+}
+
+.messengers img:hover{
+transform:scale(1.12);
+}
