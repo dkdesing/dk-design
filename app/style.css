@@ -14,3 +14,22 @@ height:auto;
 display:block;
 border-radius:28px;
 }.gallery figure:hover img{transform:scale(1.035)}.serviceList{display:grid;gap:12px;margin:28px 0}.serviceItem{padding:16px 18px;border:1px solid var(--border);border-radius:18px;background:var(--card)}.adminWrap{max-width:980px;margin:auto;padding:44px 22px}.adminBox{background:var(--card);border:1px solid var(--border);border-radius:28px;padding:26px;margin:18px 0}.code{background:#151515;color:white;border-radius:18px;padding:18px;overflow:auto;line-height:1.6}.notice{background:#2d2615;border:1px solid #6c5522;color:#f5d98b;border-radius:18px;padding:16px}.langEn{display:none}html[data-lang="en"] .langUa{display:none}html[data-lang="en"] .langEn{display:inline}.themeBtn{min-width:92px}@media(max-width:900px){.header{position:relative!important}.links{display:none}.hero,.aboutGrid,.contactBox{grid-template-columns:1fr}.cards,.packages{grid-template-columns:1fr}.hero{padding-top:50px}.heroImage{height:420px}.gallery figure,.gallery figure:nth-child(1),.gallery figure:nth-child(2){grid-column:span 12}.gallery img{height:300px}.btn{width:100%}.actions{width:100%}.nav{align-items:flex-start}.section{padding:58px 20px}h1{font-size:48px}.contactBox{padding:30px}.price{font-size:36px}}
+@media(max-width:900px){
+  .gallery{
+    columns:1 !important;
+    column-gap:0 !important;
+    padding:18px !important;
+  }
+
+  .gallery figure{
+    margin:0 0 22px !important;
+    border-radius:28px !important;
+  }
+
+  .gallery img{
+    width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+    border-radius:28px !important;
+  }
+}
