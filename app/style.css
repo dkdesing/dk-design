@@ -33,47 +33,66 @@ border-radius:28px;
     border-radius:28px !important;
   }
 }
-.floatingContacts{
-  position:fixed;
-  right:20px;
-  bottom:20px;
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-  z-index:999;
+.contactLinks{
+display:flex;
+flex-direction:column;
+gap:22px;
+align-items:flex-start;
 }
 
-.floatBtn{
-  width:58px;
-  height:58px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
-  font-weight:700;
-  text-decoration:none;
-  box-shadow:0 10px 30px rgba(0,0,0,.25);
-  transition:.25s;
-  font-size:14px;
+.phoneBlock{
+display:flex;
+flex-direction:column;
+gap:14px;
 }
 
-.floatBtn:hover{
-  transform:scale(1.08);
+.phoneBlock > a{
+font-size:28px;
+font-weight:700;
+padding:18px 26px;
+border-radius:999px;
+background:#fffaf3;
+display:flex;
+align-items:center;
+gap:10px;
+width:fit-content;
 }
 
-.telegram{
-  background:#229ED9;
+.messengers{
+display:flex;
+gap:14px;
 }
 
-.whatsapp{
-  background:#25D366;
+.messengers a{
+width:54px;
+height:54px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#fffaf3;
+transition:.25s;
 }
 
-.viber{
-  background:#7360F2;
+.messengers a:hover{
+transform:translateY(-3px);
 }
 
+.messengers img{
+width:26px;
+height:26px;
+}
+
+.contactLinks > a:last-child{
+padding:16px 24px;
+border-radius:999px;
+background:#fffaf3;
+display:flex;
+align-items:center;
+gap:10px;
+font-size:18px;
+width:fit-content;
+}
 @media(max-width:768px){
   .floatingContacts{
     right:14px;
