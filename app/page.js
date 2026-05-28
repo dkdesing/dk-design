@@ -6,22 +6,19 @@ import LangThemeControls from './LangThemeControls'
 import T from './Text'
 
 export default function Home(){return <><header className="header"><nav className="nav"><a href="/" className="logo">{site.brand}</a><div className="links"><a href="#about"><T ua="Про нас" en="About"/></a><a href="#portfolio"><T ua="Портфоліо" en="Portfolio"/></a><a href="#packages"><T ua="Пакети" en="Packages"/></a><a href="#contact"><T ua="Контакти" en="Contacts"/></a></div><div className="actions"><LangThemeControls/></div></nav></header><main><section className="hero"><div><p className="label">{site.heroLabel}</p><h1><T ua={site.heroTitle} en={site.heroTitleEn}/></h1><p className="lead"><T ua={site.heroText} en={site.heroTextEn}/></p><div className="actions" style={{marginTop:32}}><a className="btn dark" href="#portfolio"><T ua="Відкрити портфоліо" en="Open portfolio"/></a><a className="btn" href="#packages"><T ua="Послуги і ціни" en="Services & prices"/></a></div></div><div className="heroImage"><img src="/projects/sky-centre/1.jpg" alt="DK Design"/></div></section><section id="about" className="section white"><div className="inner aboutGrid"><div><p className="label">About</p><h2 className="sectionTitle"><T ua={site.aboutTitle} en={site.aboutTitleEn}/></h2></div><p className="text"><T ua={site.aboutText} en={site.aboutTextEn}/></p></div></section><section id="portfolio" className="section"><p className="label"><FolderOpen size={14}/> Portfolio</p><h2 className="sectionTitle"><T ua="Портфоліо" en="Portfolio"/></h2><div className="cards"><a className="card folderCard" href="/category/visualizations"><div className="folderIcon"></div><div><p className="muted"><T ua="Папка проєктів" en="Project folder"/></p><h3 style={{fontSize:34,margin:'10px 0'}}><T ua="Візуалізації" en="Visualizations"/></h3><p className="text"><T ua="Усі ЖК та інтерʼєрні проєкти з рендерами." en="All residential and interior projects with renders."/></p></div></a><a className="card folderCard" href="/category/drawings"><div className="folderIcon"></div><div><p className="muted"><T ua="Папка креслень" en="Drawings folder"/></p><h3 style={{fontSize:34,margin:'10px 0'}}><T ua="Креслення" en="Drawings"/></h3><p className="text"><T ua="Приклади пакетів BASE та MAX." en="Examples of BASE and MAX packages."/></p></div></a></div></section><section id="packages" className="section white"><div className="inner"><p className="label"><Layers size={14}/> Services</p><h2 className="sectionTitle"><T ua="Пакети послуг" en="Service packages"/></h2><div className="packages">{packages.map((pack)=><a className="card packageCard" key={pack.slug} href={`/package/${pack.slug}`}><p className="muted"><T ua="Натисніть, щоб відкрити список послуг" en="Click to open services list"/></p><h3 style={{fontSize:30}}><T ua={pack.title} en={pack.titleEn}/></h3><div className="price"><T ua={pack.price} en={pack.priceEn}/></div><p className="text" style={{fontSize:16}}><T ua={pack.short} en={pack.shortEn}/></p></a>)}</div></div></section><section id="contact" className="section"><div className="contactBox"><div><p className="label">Contacts</p><h2 className="sectionTitle"><T ua="Звʼязатися з нами" en="Contact us"/></h2><p className="text"><T ua="Напишіть на пошту або зателефонуйте, щоб обговорити проєкт, стиль, бюджет і формат роботи." en="Email or call us to discuss your project, style, budget and workflow."/></p></div><div className="contactLinks">
-
   <div className="phoneBlock">
     <a href={`tel:${site.phone}`}>
       <Phone size={17}/> {site.phone}
     </a>
 
     <div className="messengers">
-      <a href="https://t.me/ТВІЙ_ЮЗЕРНЕЙМ" target="_blank">
+      <a href="https://t.me/denkon21" target="_blank">
         <img src="/telegram.svg" alt="Telegram"/>
       </a>
-
-      <a href="https://wa.me/380XXXXXXXXX" target="_blank">
+      <a href="https://wa.me/380995081424" target="_blank">
         <img src="/whatsapp.svg" alt="WhatsApp"/>
       </a>
-
-      <a href="viber://chat?number=%2B380XXXXXXXXX">
+      <a href="viber://chat?number=%2B380995081424">
         <img src="/viber.svg" alt="Viber"/>
       </a>
     </div>
@@ -30,5 +27,6 @@ export default function Home(){return <><header className="header"><nav classNam
   <a href={`mailto:${site.email}`}>
     <Mail size={17}/> {site.email}
   </a>
-
-</div></main><AdminUnlock/></>}
+</div>
+</div>
+</section></main><AdminUnlock/></>}
