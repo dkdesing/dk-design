@@ -15,6 +15,11 @@ export const metadata = {
     "дизайн квартири",
     "DK Design"
   ],
+
+icons: {
+  icon: "/favicon.png",
+},
+
 openGraph: {
   title: "DK Design | Дизайн інтер’єру",
 
