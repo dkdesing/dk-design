@@ -1,3 +1,4 @@
+import Script from "next/script";
 import './style.css'
 import { Analytics } from '@vercel/analytics/react'
 export const metadata = {
@@ -43,4 +44,30 @@ openGraph: {
   type: "website",
 },
 }
-export default function RootLayout({children}){return <html lang="uk"><body>{children}<Analytics /></body></html>}
+export default function RootLayout({ children }) {
+  return (
+    <html lang="uk">
+      <body>
+        {children}
+
+        <Analytics />
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XF893FYVB0"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-XF893FYVB0');
+          `}
+        </Script>
+
+      </body>
+    </html>
+  );
+}
