@@ -28,8 +28,8 @@
     "slug": "base",
     "title": "Пакет BASE",
     "titleEn": "BASE Package",
-    "price": "20$ м2",
-    "priceEn": "20$ m2",
+    "price": "16$ м2",
+    "priceEn": "16$ m2",
     "short": "Розробка від 3 тижнів",
     "shortEn": "Development from 3 weeks",
     "services": [
@@ -59,8 +59,8 @@
     "slug": "max",
     "title": "Пакет MAX",
     "titleEn": "MAX Package",
-    "price": "25$ м2",
-    "priceEn": "25$ m2",
+    "price": "20$ м2",
+    "priceEn": "20$ m2",
     "short": "Розробка від 1 місяця",
     "shortEn": "Development from 1 month",
     "services": [
